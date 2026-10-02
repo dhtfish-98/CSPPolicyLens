@@ -1,0 +1,5 @@
+include README.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_REVIEW.json NOTICE LICENSE
+recursive-include THIRD_PARTY_LICENSES *.txt
+recursive-include tests *.py
+recursive-include evidence *.json
+recursive-include .github *.yml

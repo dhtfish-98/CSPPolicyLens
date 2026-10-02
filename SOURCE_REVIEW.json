@@ -1,0 +1,205 @@
+{
+  "project": "CSPPolicyLens",
+  "upstream": "google/csp-evaluator",
+  "commit": "ad530f3ae5473f9e03c8bf500ee0ada8d9e9b822",
+  "selected_full_files": [
+    {
+      "path": "parser.ts",
+      "sha256": "02bf6e168b4fcf117a01e048f68b0a033bee720c571d7159fe42b047206335f6",
+      "bytes": 3011,
+      "lines": 100,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "csp.ts",
+      "sha256": "61c25fc65828b6336cf74d746abc9a94b0defbd58b50546aa789838e23bae59f",
+      "bytes": 14098,
+      "lines": 443,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "evaluator.ts",
+      "sha256": "3ac0b3b784fa27d5a6a319d0713fc16c78a9da73152c762dfcb336d4738de17b",
+      "bytes": 3984,
+      "lines": 126,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "finding.ts",
+      "sha256": "14f381f990646416c09d57fe1952ff485a1e604a955b6ad6e71ef0242bf39a7a",
+      "bytes": 3197,
+      "lines": 123,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "utils.ts",
+      "sha256": "0705dbdd996f0ac601522f7d35e4b2a3bf78e51381898736d841c9a05c9a92a4",
+      "bytes": 4761,
+      "lines": 147,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/parser_checks.ts",
+      "sha256": "d1ab355b4b8431261ee80a8648337e710b3fe21e96d6de8e77703b40bf372ca9",
+      "bytes": 4771,
+      "lines": 156,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/strictcsp_checks.ts",
+      "sha256": "f4202cf17b2b412147109828e6e8ec36bd14964e8b1ef858ed240cbb8403555a",
+      "bytes": 6112,
+      "lines": 179,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/security_checks.ts",
+      "sha256": "9de0ce19d7393519bdd8b6a9bd8fab93b5ab4c6e0318cceb88858d08345afb5d",
+      "bytes": 20847,
+      "lines": 607,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/checker.ts",
+      "sha256": "670b93380cde935ab470dcdd8ca974bdb18e9f0d7f060c74009b84e4fa34b8e3",
+      "bytes": 308,
+      "lines": 12,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "parser_test.ts",
+      "sha256": "4b8903f91f190539ce4227e9fcff9a43171007928b51c059c9121de17d2ccefb",
+      "bytes": 6514,
+      "lines": 162,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "csp_test.ts",
+      "sha256": "0fbc11c4804c7769ae0925dec81df753964b26c3a63ee7e4eb5a27b20a5dc186",
+      "bytes": 12123,
+      "lines": 319,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "evaluator_test.ts",
+      "sha256": "b7110e2430012eaec4d386a6313823fa87a8905c53acc9e20d7ee6ad844db7f6",
+      "bytes": 1624,
+      "lines": 49,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "finding_test.ts",
+      "sha256": "a7a2c01424d65f3763df93467cc988e586f372f2bf26208bb450b0848f88a0a1",
+      "bytes": 2183,
+      "lines": 65,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "utils_test.ts",
+      "sha256": "8f82d7f798b4eb04b466f00345daf8b6e8c7dc37d2e6f4f2287b67c80e3fa520",
+      "bytes": 4726,
+      "lines": 147,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/parser_checks_test.ts",
+      "sha256": "0fee2e4747abf5da44d42caa5b6582ab2781c4b3cb7592da06eaecd915502604",
+      "bytes": 3965,
+      "lines": 112,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/strictcsp_checks_test.ts",
+      "sha256": "a22fb092173c1d3481050c3b414073fd996d663cd3d79d45348e50d0b1d45deb",
+      "bytes": 3923,
+      "lines": 112,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "checks/security_checks_test.ts",
+      "sha256": "ee7d92fd7eb634e56015fe8d4774e3a8251f1137ed322e437854b2b29f03a498",
+      "bytes": 20041,
+      "lines": 542,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "8e8d6e371e29156d5edb48d9eade66e1c2d5e09f4b8b7add4666123ab2ecab52",
+      "bytes": 1763,
+      "lines": 60,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "76ede5870a6a38313483a134ea388d07d9caa50831ec0305cb0697dcc9601874",
+      "bytes": 761,
+      "lines": 29,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "AUTHORS",
+      "sha256": "2d94a089663ebfc7878ced8380bad4f6e07f7b0312b32f3365ee43804e47fbac",
+      "bytes": 380,
+      "lines": 10,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "bytes": 11357,
+      "lines": 202,
+      "full_read": true,
+      "fixed_remote_git_blob_match": true
+    }
+  ],
+  "selected_full_lines": 3702,
+  "whole_repository_semantic_audit": false,
+  "source_execution": false,
+  "independent_fixed_raw_matches": {
+    "parser.ts": "PASS",
+    "csp.ts": "PASS",
+    "LICENSE": "PASS"
+  },
+  "removed_from_new_runtime_and_artifacts": [
+    "allowlist_bypasses/*",
+    "checkScriptAllowlistBypass",
+    "checkFlashObjectAllowlistBypass",
+    "target URLs/payload/browser/network execution"
+  ],
+  "primary_models": [
+    {
+      "url": "https://www.w3.org/TR/CSP2/",
+      "kind": "Recommendation"
+    },
+    {
+      "url": "https://www.w3.org/TR/2026/WD-CSP3-20260916/",
+      "kind": "Working Draft selected algorithms"
+    },
+    {
+      "url": "https://www.w3.org/TR/2026/WD-trusted-types-20260623/",
+      "kind": "Working Draft selected configuration semantics"
+    }
+  ],
+  "new_runtime": "independent AI-assisted Python reimplementation; no upstream wrapper",
+  "all_new_runtime_tests_docs_build_and_workflow_full_read": true
+}

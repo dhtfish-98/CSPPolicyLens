@@ -1,0 +1,9 @@
+.venv/
+.consumer*/
+__pycache__/
+*.pyc
+*.egg-info/
+.ruff_cache/
+dist/
+build/
+.verification*.log
