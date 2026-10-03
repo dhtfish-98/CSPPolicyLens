@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "project": "CSPPolicyLens",
+  "version": "0.1.1",
+  "author": "dhtfish98",
+  "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "17d0fde35c6055cda8a9798eeafbe96af58a631d7546bcc71503bc1dd338a23e",
+      "bytes": 921
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "46de2323600cc8a80295aa57d090fc3a7b6627206dd4dcd0aeee55b2d9666d2f",
+      "bytes": 95
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "941f18d6e15afdb8e53a390f00e87497d7ec7f22e8d3791a2b90a13a9f3dd8bd",
+      "bytes": 3863
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "bytes": 11357
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "21c8c9346356a7f40a80774e3a56fe5f848bacea3e40fb617371782068cdf3c3",
+      "bytes": 265
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "93cd7a559d876d209deba7b2aca60ddb21f557b89b1e1e86c8e0e834fdba9293",
+      "bytes": 771
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "0dedc98cd92e6c2e7289e56dbfbddbace3dc847f603681d80c1fde232f5179b4",
+      "bytes": 864
+    },
+    {
+      "path": "README.md",
+      "sha256": "e4dde60da6543afbb5b99690a21022b632acc2a9608b4194fa07c6bfdd4abbcb",
+      "bytes": 3863
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "sha256": "b729b81202453b4a5058925e8f7f4823caf4119ae9cd3e8c5f1304ec91837683",
+      "bytes": 6439
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES/csp-evaluator-Apache-2.0.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "bytes": 11357
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "5b3b49a7a02cee372f97763e82709b94e82096b910342c438b3f1a0dfc144457",
+      "bytes": 3674
+    },
+    {
+      "path": "evidence/deny.json",
+      "sha256": "84d21573fd228a814a822924f1c2155a922d79c5a6df16a2eab3b7ef33dc7d08",
+      "bytes": 143
+    },
+    {
+      "path": "evidence/permissive.json",
+      "sha256": "f7d0b35823b47baef0614c6461944791c683b7e703eb2b45def48ce1985fab91",
+      "bytes": 133
+    },
+    {
+      "path": "evidence/unknown.json",
+      "sha256": "de70a9ebcfc9c51e5b099fc7941727d70ee480cb33fbf8a2e0b14dfc3ec685e5",
+      "bytes": 157
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "11be530aba2b1b3a6fa7026363c057c766c3a569696d30a075627473424ada86",
+      "bytes": 836
+    },
+    {
+      "path": "src/csp_policy_lens/__init__.py",
+      "sha256": "adfd2cbd1284dc063c4d71bead970191821fb4aa0220bd81c20273427580a6d9",
+      "bytes": 204
+    },
+    {
+      "path": "src/csp_policy_lens/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/csp_policy_lens/cli.py",
+      "sha256": "808b7110e3f1243d645836d7dae01ed16d23e66ec27edc0f7b3790926b00ca8c",
+      "bytes": 1140
+    },
+    {
+      "path": "src/csp_policy_lens/contracts.py",
+      "sha256": "97ab8be3be884399bdca870b5ceea8ad08330707b7818b72f16c94577ac2ad81",
+      "bytes": 3485
+    },
+    {
+      "path": "src/csp_policy_lens/files.py",
+      "sha256": "706f49d4deb75dc6387361105054831ebf38784d987c5c49df04e1335aad5239",
+      "bytes": 2153
+    },
+    {
+      "path": "src/csp_policy_lens/input.py",
+      "sha256": "f965a12bdfb89c949c20b19e9cc93bc2a17ac4ba16ca8123ca25beae2252577a",
+      "bytes": 2086
+    },
+    {
+      "path": "src/csp_policy_lens/model.py",
+      "sha256": "2a60a89ab938346722d6cec2b8c19ddbc53aacabfff13ad45e69796a83f5d5aa",
+      "bytes": 11543
+    },
+    {
+      "path": "src/csp_policy_lens/parser.py",
+      "sha256": "1a354de17e99a3958f7bbe04f638528bada76979f92fad564960e3c6a1d9b038",
+      "bytes": 8895
+    },
+    {
+      "path": "src/csp_policy_lens/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/csp_policy_lens/review.py",
+      "sha256": "892e874239e29d9830a4c08d551b2685aed28401159410fae39a70e2e66289c6",
+      "bytes": 2802
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "sha256": "cee942a4df89b633aa1ae84adb3ba687c56401835ad9fe98bab0287fbebd078a",
+      "bytes": 1947
+    },
+    {
+      "path": "tests/test_dirfd_capabilities.py",
+      "sha256": "fcbe83908dd2067d6d894f5107d8b98789500eb0e9c2caa84c94b5ab9a08619a",
+      "bytes": 4628
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "1d4a3113ab68850a49af968576b8fbb6a35845782091daf2e389c0a88093b8fe",
+      "bytes": 23739
+    }
+  ]
+}

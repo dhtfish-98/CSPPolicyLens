@@ -1,4 +1,4 @@
-CSPPolicyLens: new AI-assisted runtime, tests and documentation, 2026.
+CSPPolicyLens new implementation author and maintainer: dhtfish98, 2026.
 The selected design source is Google CSP Evaluator, fixed commit
 ad530f3ae5473f9e03c8bf500ee0ada8d9e9b822, under Apache License 2.0.
 Copyright 2016 Google Inc. All rights reserved.

@@ -6,7 +6,9 @@ import stat
 
 def read_regular(path, limit):
     if (
-        not all(hasattr(os, name) for name in ("O_NOFOLLOW", "O_NONBLOCK", "O_DIRECTORY"))
+        any(type(getattr(os, name, None)) is not int or getattr(os, name, 0) <= 0
+               for name in ("O_NOFOLLOW", "O_NONBLOCK", "O_DIRECTORY"))
+        or type(getattr(os, "supports_dir_fd", None)) not in (set, frozenset)
         or os.open not in os.supports_dir_fd
     ):
         raise ValueError("safe_open_unsupported")

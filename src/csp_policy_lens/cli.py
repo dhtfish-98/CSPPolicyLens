@@ -15,7 +15,7 @@ def main(argv=None):
     parser = Parser(description="Offline CSP2/3 policy model; no browser or fetch")
     parser.add_argument("path")
     parser.add_argument("--model", choices=("2", "3", "both"), default="both")
-    parser.add_argument("--version", action="version", version="CSPPolicyLens 0.1.0")
+    parser.add_argument("--version", action="version", version="CSPPolicyLens 0.1.1")
     try:
         args = parser.parse_args(argv)
         report = review_file(

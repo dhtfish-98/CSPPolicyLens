@@ -1,6 +1,6 @@
 # CSPPolicyLens
 
-Independent offline CSP policy parsing, effective-directive selection and combined enforcement evidence. The new runtime is AI-assisted Python code based on a reviewed fixed Google CSP Evaluator source and primary specifications. It contains no upstream bypass-address database.
+Independent offline CSP policy parsing, effective-directive selection and combined enforcement evidence. New implementation author and maintainer: dhtfish98. The new runtime is Python code based on a reviewed fixed Google CSP Evaluator source and primary specifications. It contains no upstream bypass-address database.
 
 Install the reviewed wheel, then run `csp-policy-lens local-policy.json --model both`. The input is an explicit local UTF-8 JSON snapshot:
 
@@ -19,3 +19,11 @@ The report contains token kinds, SHA-256 digests and positions. It excludes raw 
 The library offers `review_bytes(data, versions=(2,3), limits=Limits())` and `review_file(path, ...)`. File mode reads one unchanged regular snapshot, rejects every symlink component, directories, FIFOs and parent traversal, and writes nothing. On macOS use physical paths below `/private` when `/tmp` or `/var` are symlink aliases. Byte mode performs no file access. The tool never fetches a page, checks a server, opens a browser, executes a script, posts reports or applies a policy.
 
 Source, model boundaries and validation are recorded in [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md), [SOURCE_REVIEW.json](SOURCE_REVIEW.json) and [VALIDATION.md](VALIDATION.md). Actual delivered headers, nonce entropy/reuse, DOM and policy code, browser compatibility, URL/redirect matching, XSS elimination and CVP eligibility remain OPEN. This repository is a new defensive implementation, not evidence of prior applicant contributions or an approval guarantee.
+
+Local file I/O requires the positive integer OS protection flags documented by
+the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
+controlled OPEN/error before requested filesystem input/output instead of
+weakening the boundary. Native
+Windows file I/O is not verified; the current verification is macOS POSIX.
+
+Directory descriptor capability contract: `os.supports_dir_fd` must be a set or frozenset containing `os.open` before requested local file access. Missing, malformed or incomplete capability declarations return the existing controlled OPEN/error result. This finite POSIX contract is checked locally; native Windows file operations are not implemented or claimed.

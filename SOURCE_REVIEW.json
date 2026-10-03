@@ -200,6 +200,12 @@
       "kind": "Working Draft selected configuration semantics"
     }
   ],
-  "new_runtime": "independent AI-assisted Python reimplementation; no upstream wrapper",
-  "all_new_runtime_tests_docs_build_and_workflow_full_read": true
+  "new_runtime": "independent Python reimplementation; new implementation author dhtfish98; no upstream wrapper",
+  "all_new_runtime_tests_docs_build_and_workflow_full_read": true,
+  "current_implementation": {
+    "version": "0.1.1",
+    "author": "dhtfish98",
+    "source_manifest": "SOURCE_MANIFEST.json",
+    "historical_review_hashes": "Earlier new-implementation hashes describe their original reviewed snapshots; use SOURCE_MANIFEST.json for this version."
+  }
 }
