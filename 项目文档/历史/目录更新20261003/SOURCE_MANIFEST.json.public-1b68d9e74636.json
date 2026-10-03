@@ -7,23 +7,53 @@
   "files": [
     {
       "path": ".github/workflows/verify.yml",
-      "sha256": "fa36c1ed931fb77f8d25cfa945d33c06a8c00c998a76f936b7513bbf433935d9",
-      "bytes": 2273
+      "sha256": "17d0fde35c6055cda8a9798eeafbe96af58a631d7546bcc71503bc1dd338a23e",
+      "bytes": 921
     },
     {
       "path": ".gitignore",
-      "sha256": "5ca067bfb747fec0a8c2828aceaa7e1f0662537fd8d2605e52b9b1561c4cc296",
-      "bytes": 209
+      "sha256": "46de2323600cc8a80295aa57d090fc3a7b6627206dd4dcd0aeee55b2d9666d2f",
+      "bytes": 95
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "941f18d6e15afdb8e53a390f00e87497d7ec7f22e8d3791a2b90a13a9f3dd8bd",
+      "bytes": 3863
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "bytes": 11357
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "b46df1add9524cdf96ae1cb7b09c1b3d97002185c017e490e874ed35b5f882e1",
-      "bytes": 781
+      "sha256": "f72345fe8274d7f511f28ffdab5da24278cd8a9b8d687f17f27da40a3406a8c0",
+      "bytes": 220
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "8df4bc2c489f5823c1f2759e7e816cd0e1707b6a86048219657581882e923062",
+      "bytes": 674
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "baa587c520331c9e6da392d450ce0e42f45b3f526fde34b44235b4377fbdca3b",
+      "bytes": 1041
+    },
+    {
+      "path": "README.md",
+      "sha256": "e4dde60da6543afbb5b99690a21022b632acc2a9608b4194fa07c6bfdd4abbcb",
+      "bytes": 3863
     },
     {
       "path": "SOURCE_REVIEW.json",
       "sha256": "648d9a7b4e1c6423879c85ecd0d07df3c6c25725504d00ea07e49ff786cc0079",
       "bytes": 6841
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "1d13f903de9ec537cc0c333e6547036e7f67b34df207ac5e4b5e15b23f6d267b",
+      "bytes": 5013
     },
     {
       "path": "evidence/deny.json",
@@ -42,8 +72,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "9b71881883bdafdb9bc1ee07812ebb550ae86dc4da8adf375fa749e5baf5ee25",
-      "bytes": 822
+      "sha256": "1e0fcd729240df096685092854a8154d17c00733a212ac682bd0c324d62d8b22",
+      "bytes": 783
     },
     {
       "path": "src/csp_policy_lens/__init__.py",
@@ -109,64 +139,7 @@
       "path": "tests/test_review.py",
       "sha256": "1d4a3113ab68850a49af968576b8fbb6a35845782091daf2e389c0a88093b8fe",
       "bytes": 23739
-    },
-    {
-      "sha256": "248c7594ad67a2d9380273b1dd68986253a2d9bac75595f1f6e3647720335c8e",
-      "bytes": 6787,
-      "path": "构建.py"
-    },
-    {
-      "sha256": "3af96729fc2bab5eb4a0ac1c4d9fd57811096ae70bbe6cb75e35cf56ad2acf81",
-      "bytes": 1268,
-      "path": "构建配置.json"
-    },
-    {
-      "path": "项目文档/DEFENSIVE_SCOPE.md",
-      "sha256": "941f18d6e15afdb8e53a390f00e87497d7ec7f22e8d3791a2b90a13a9f3dd8bd",
-      "bytes": 3863
-    },
-    {
-      "path": "项目文档/LICENSE",
-      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
-      "bytes": 11357
-    },
-    {
-      "path": "项目文档/NOTICE",
-      "sha256": "8df4bc2c489f5823c1f2759e7e816cd0e1707b6a86048219657581882e923062",
-      "bytes": 674
-    },
-    {
-      "path": "项目文档/ORIGIN.md",
-      "sha256": "baa587c520331c9e6da392d450ce0e42f45b3f526fde34b44235b4377fbdca3b",
-      "bytes": 1041
-    },
-    {
-      "path": "项目文档/README.md",
-      "sha256": "e2a7431f425c18555e734d0918df3d4887167d775aaf1bf8decd5f46b123062f",
-      "bytes": 4227
-    },
-    {
-      "path": "项目文档/VALIDATION.md",
-      "sha256": "1d13f903de9ec537cc0c333e6547036e7f67b34df207ac5e4b5e15b23f6d267b",
-      "bytes": 5013
-    },
-    {
-      "sha256": "f1c88d4663aa4553b9d3cfaf76b61005e7fa8ac08d939dce4b22177670357e98",
-      "bytes": 4628,
-      "path": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.public-1b68d9e74636.json"
-    },
-    {
-      "path": "项目文档/目录与构建.md",
-      "sha256": "3f7599e7a43cd47108377905ec46e6894317d8e574e3f865157e9fc9bc6d7c72",
-      "bytes": 816
     }
   ],
-  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved.",
-  "directory_layout_maintenance": {
-    "base_public_commit": "1b68d9e7463624c3994239add2a14b46782e12d4",
-    "original_inventory": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.public-1b68d9e74636.json",
-    "original_inventory_sha256": "f1c88d4663aa4553b9d3cfaf76b61005e7fa8ac08d939dce4b22177670357e98",
-    "path_view": "Canonical repository paths; the builder also restores byte-identical legacy aliases under ignored Build for existing packaging checks",
-    "scope": "Current file inventory and packaging paths only; runtime bytes/version/API unchanged. Historical validation and security conclusions are retained, not rerun or newly certified."
-  }
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }
