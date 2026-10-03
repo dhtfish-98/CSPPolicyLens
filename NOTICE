@@ -1,8 +1,6 @@
 CSPPolicyLens new implementation author and maintainer: dhtfish98, 2026.
 The selected design source is Google CSP Evaluator, fixed commit
-ad530f3ae5473f9e03c8bf500ee0ada8d9e9b822, under Apache License 2.0.
-Copyright 2016 Google Inc. All rights reserved.
-Upstream authors include Lukas Weichselbaum and David Dworken.
+ad530f3ae5473f9e03c8bf500ee0ada8d9e9b822, used only as a source/design reference.
 The new Python runtime is an independent bounded reimplementation. It does not
 vendor the original TypeScript runtime or bypass-address datasets.
 This is not an official Google product. Source review and implementation do not

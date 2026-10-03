@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "CSPPolicyLens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -27,18 +27,18 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "21c8c9346356a7f40a80774e3a56fe5f848bacea3e40fb617371782068cdf3c3",
-      "bytes": 265
+      "sha256": "f72345fe8274d7f511f28ffdab5da24278cd8a9b8d687f17f27da40a3406a8c0",
+      "bytes": 220
     },
     {
       "path": "NOTICE",
-      "sha256": "93cd7a559d876d209deba7b2aca60ddb21f557b89b1e1e86c8e0e834fdba9293",
-      "bytes": 771
+      "sha256": "8df4bc2c489f5823c1f2759e7e816cd0e1707b6a86048219657581882e923062",
+      "bytes": 674
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "0dedc98cd92e6c2e7289e56dbfbddbace3dc847f603681d80c1fde232f5179b4",
-      "bytes": 864
+      "sha256": "baa587c520331c9e6da392d450ce0e42f45b3f526fde34b44235b4377fbdca3b",
+      "bytes": 1041
     },
     {
       "path": "README.md",
@@ -47,18 +47,13 @@
     },
     {
       "path": "SOURCE_REVIEW.json",
-      "sha256": "b729b81202453b4a5058925e8f7f4823caf4119ae9cd3e8c5f1304ec91837683",
-      "bytes": 6439
-    },
-    {
-      "path": "THIRD_PARTY_LICENSES/csp-evaluator-Apache-2.0.txt",
-      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
-      "bytes": 11357
+      "sha256": "648d9a7b4e1c6423879c85ecd0d07df3c6c25725504d00ea07e49ff786cc0079",
+      "bytes": 6841
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "5b3b49a7a02cee372f97763e82709b94e82096b910342c438b3f1a0dfc144457",
-      "bytes": 3674
+      "sha256": "1d13f903de9ec537cc0c333e6547036e7f67b34df207ac5e4b5e15b23f6d267b",
+      "bytes": 5013
     },
     {
       "path": "evidence/deny.json",
@@ -77,12 +72,12 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "11be530aba2b1b3a6fa7026363c057c766c3a569696d30a075627473424ada86",
-      "bytes": 836
+      "sha256": "1e0fcd729240df096685092854a8154d17c00733a212ac682bd0c324d62d8b22",
+      "bytes": 783
     },
     {
       "path": "src/csp_policy_lens/__init__.py",
-      "sha256": "adfd2cbd1284dc063c4d71bead970191821fb4aa0220bd81c20273427580a6d9",
+      "sha256": "eaf8dc6ec16f3bc08526817be0f2d489746feb0c946eedfef8fafd80b058e130",
       "bytes": 204
     },
     {
@@ -92,7 +87,7 @@
     },
     {
       "path": "src/csp_policy_lens/cli.py",
-      "sha256": "808b7110e3f1243d645836d7dae01ed16d23e66ec27edc0f7b3790926b00ca8c",
+      "sha256": "f70e32ae12ad8ed163e7571e4a14946d8311bbbcf96c9857820067fb1138c7df",
       "bytes": 1140
     },
     {
@@ -145,5 +140,6 @@
       "sha256": "1d4a3113ab68850a49af968576b8fbb6a35845782091daf2e389c0a88093b8fe",
       "bytes": 23739
     }
-  ]
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }

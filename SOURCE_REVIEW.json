@@ -203,9 +203,16 @@
   "new_runtime": "independent Python reimplementation; new implementation author dhtfish98; no upstream wrapper",
   "all_new_runtime_tests_docs_build_and_workflow_full_read": true,
   "current_implementation": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "dhtfish98",
     "source_manifest": "SOURCE_MANIFEST.json",
     "historical_review_hashes": "Earlier new-implementation hashes describe their original reviewed snapshots; use SOURCE_MANIFEST.json for this version."
+  },
+  "license_cleanup_20261003": {
+    "version": "0.1.2",
+    "removed_reference_notice_copies": [
+      "THIRD_PARTY_LICENSES/csp-evaluator-Apache-2.0.txt"
+    ],
+    "scope": "Material-only notice cleanup. Earlier source-review hashes describe historical snapshots; current files are bound by SOURCE_MANIFEST.json. Actually distributed third-party source/data and their notices remain unchanged."
   }
 }
