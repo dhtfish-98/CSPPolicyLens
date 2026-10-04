@@ -20,7 +20,7 @@ The report contains token kinds, SHA-256 digests and positions. It excludes raw 
 
 The library offers `review_bytes(data, versions=(2,3), limits=Limits())` and `review_file(path, ...)`. File mode reads one unchanged regular snapshot, rejects every symlink component, directories, FIFOs and parent traversal, and writes nothing. On macOS use physical paths below `/private` when `/tmp` or `/var` are symlink aliases. Byte mode performs no file access. The tool never fetches a page, checks a server, opens a browser, executes a script, posts reports or applies a policy.
 
-Source, model boundaries and validation are recorded in [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>), [SOURCE_REVIEW.json](<../SOURCE_REVIEW.json>) and [VALIDATION.md](<VALIDATION.md>). Actual delivered headers, nonce entropy/reuse, DOM and policy code, browser compatibility, URL/redirect matching, XSS elimination and CVP eligibility remain OPEN. This repository is a new defensive implementation, not evidence of prior applicant contributions or an approval guarantee.
+Source, model boundaries and validation are recorded in [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>), [SOURCE_REVIEW.json](<SOURCE_REVIEW.json>) and [VALIDATION.md](<VALIDATION.md>). Actual delivered headers, nonce entropy/reuse, DOM and policy code, browser compatibility, URL/redirect matching, XSS elimination and CVP eligibility remain OPEN. This repository is a new defensive implementation, not evidence of prior applicant contributions or an approval guarantee.
 
 Local file I/O requires the positive integer OS protection flags documented by
 the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
